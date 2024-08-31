@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#F8C2B1"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm nhân viên"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:id="@+id/edt_manv"
+        android:layout_width="match_parent"
+        android:hint="Nhập vào nhân viên"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_edit"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Spinner
+        android:id="@+id/sp_phongban_add"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_hodemnv"
+        android:hint="Nhập vào họ đệm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_edit"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:id="@+id/edt_tennv"
+        android:layout_width="match_parent"
+        android:hint="Nhập vào tên"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_edit"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:id="@+id/edt_luongnv"
+        android:layout_width="match_parent"
+        android:hint="Nhập vào lương"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_edit"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:id="@+id/edt_tuoinv"
+        android:layout_width="match_parent"
+        android:hint="Nhập vào tuổi"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_edit"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:id="@+id/edt_diachinv"
+        android:layout_width="match_parent"
+        android:hint="Nhập vào địa chỉ"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_edit"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:id="@+id/edt_chucvunv"
+        android:layout_width="match_parent"
+        android:hint="Nhập vào chức vụ"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_edit"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:id="@+id/edt_matkhaunv"
+        android:layout_width="match_parent"
+        android:hint="Nhập vào mật khẩu"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_edit"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/btn_themnv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm"
+        />
+
+
+
+</LinearLayout>
